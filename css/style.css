@@ -1096,6 +1096,12 @@ a:focus {
   margin: 0;
 }
 
+img.framed {
+  box-shadow:
+    -50px -50px 0 -40px var(--yellow),
+    50px 50px 0 -40px var(--yellow);
+}
+
 /* footer section*/
 .footer_section {
   display: -webkit-box;
